@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(51, 53, 54);
+}
+
+.app > img {
+  width: 100px;
+  height: 100px;
+}
